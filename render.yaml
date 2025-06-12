@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: crashpredictor-kurdi-bot
+    env: python
+    region: oregon
+    plan: free
+    branch: main
+    buildCommand: ""
+    startCommand: python bot.py
+    autoDeploy: true
